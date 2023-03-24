@@ -1,0 +1,38 @@
+###
+GET http://localhost:3000/states/
+
+
+###
+
+GET http://localhost:3000/state/8/
+
+
+// API 3
+
+###
+POST http://localhost:3000/districts/
+Content-Type: application/json
+
+
+###
+//API 4
+GET http://localhost:3000/districts/322/
+###
+//API 5
+DELETE http://localhost:3000/districts/1/
+
+
+###
+//API 6
+GET http://localhost:3000/states/:stateId/stats/
+
+
+// API 7
+
+###
+GET http://localhost:3000/states/:stateId/stats/
+
+
+###
+//API 8
+GET http://localhost:3000/districts/:districtId/details/
